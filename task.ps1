@@ -46,7 +46,7 @@ $Params = @{
   Publisher          = 'Microsoft.Azure.Extensions'
   ExtensionType      = 'CustomScript'
   TypeHandlerVersion = '2.1'
-  ProtectedSettings  = @{
+  Settings  = @{
       fileUris = @('https://raw.githubusercontent.com/v-shutov/azure_task_12_deploy_app_with_vm_extention/develop/install-app.sh')
       commandToExecute = './install-app.sh'
   }
